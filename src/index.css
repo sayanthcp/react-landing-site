@@ -1,0 +1,30 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Caveat:wght@400;500;700&family=Montserrat:wght@200;400;500;700;900&family=Poppins:wght@200;300;700&family=Source+Sans+3:wght@200;400;700;900&family=Ubuntu:wght@400;500;700&display=swap');
+
+ :root {
+    --primary-dark:#5651e5;
+    --secondary-light:#709dff;
+ }
+
+
+  @layer base {
+    html {
+        @apply scroll-smooth
+    }
+
+    body {
+        @apply font-[Montserrat]
+    }
+
+    li {
+        @apply p-4 text-sm
+    }
+
+    button {
+        @apply px-4 py-2 border rounded-md text-white font-semibold bg-gradient-to-r from-[var(--primary-dark)] to-[var(--secondary-light)]
+    }
+  }
+
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
