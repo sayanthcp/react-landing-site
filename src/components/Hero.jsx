@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='w-full h=[90vh]'>
         <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" className='w-full h-screen object-cover'/>
-        <div className='max-w-[1140px] m-auto'>
+        <div className='max-w-[1280px] m-auto'>
             <div className='absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4'>
                 <h1 className='text-3xl font-bold'>Find Your Special Trip</h1>
                 <h2 className='text-3xl font-bold mb-3'>With Weekaway</h2>
