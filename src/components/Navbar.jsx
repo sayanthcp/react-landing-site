@@ -10,7 +10,7 @@ const Navbar = () => {
         setNav(!nav)
     }
   return (
-    <div className='w-full min-h-[50px] flex justify-between items-center absolute text-white bg-gray-700/80'>
+    <div className='w-full min-h-[50px] flex justify-between items-center absolute text-white bg-gray-700/80 z-10'>
         <ul className=' sm:flex px-4 hidden'>
             <li>
                 <a href="/">Home</a>
@@ -37,8 +37,8 @@ const Navbar = () => {
             <FaBars size={20} className='mr-4 cursor-pointer'/>  
         </div>
         {/* mobile menu */}
-        <div className={nav ? 'overflow-y-hidden md:hidden ease-in duration-100 absolute left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col' 
-                            : 'absolute h-screen top-0 left-[-100%] ease-in duration-100 '}>
+        <div className={nav ? 'overflow-y-hidden md:hidden ease-in duration-100 absolute left-0 top-0 w-full h-screen bg-black px-4 py-7 flex flex-col' 
+                            : 'absolute h-screen top-0 left-[-100%] ease-in duration-100'}>
             <ul className='h-full w-full text-center p-12'>
                 <li className='text-2xl py-8 hover:text-[var(--primary-dark)]'>
                     <a href="/">Home</a>
