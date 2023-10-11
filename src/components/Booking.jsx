@@ -7,10 +7,13 @@ const Booking = () => {
             <div className='flex flex-col my-2 py-2'>
                 <label>destination</label>
                 <select className='lg:w-[300px] md:w-full border rounded-md p-2'>
-                    <option >gdhgddgd</option>
-                    <option >sfhjfsdsfdg</option>
-                    <option >sdfdhjfgsfsf</option>
-                    <option >sfdhfjxzss</option>
+                    <option >Lizard Island, Great Barrier Reef, Australia</option>
+                    <option >Atlantis, Paradise Island, </option>
+                    <option >Rayavadee, Krabi, Thailand</option>
+                    <option >Capella Ixtapa, Mexico</option>
+                    <option>Couples Swept Away, Negril, Jamaica</option>
+                    <option>The Nam Hai, Hoi An, Vietnam</option>
+                    <option>Le Sereno, St. Barts</option>
                 </select>
             </div>
             <div className='flex w-full'>
