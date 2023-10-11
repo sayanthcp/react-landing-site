@@ -16,6 +16,7 @@ function App() {
       <Activities />
       <Booking />
       <Gallery />
+      <Contact />
     </>
   )
 }
